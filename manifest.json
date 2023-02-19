@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Get Meaning",
+    "version": "1.0",
+    "description": "Get the meaning of any word on right-click and replace it with red text color.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "contextMenus"
+    ],
+    "host_permissions": [
+      "*://api.dictionary.com/"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
